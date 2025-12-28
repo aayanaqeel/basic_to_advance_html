@@ -1,0 +1,146 @@
+/* Laptop Screens Starts from 1440 - 1280 */
+/* Tablets Screens Starts from 1024 - 991 - 768 */
+/* Mobile Screens Starts from 768 - 375 */
+
+/* For reponsive we apply media queries */
+@media (max-width: 1280px) {
+  .member {
+    font-size: 14px;
+  }
+  .headerlist {
+    gap: 14px;
+    font-size: 14px;
+  }
+}
+@media (max-width: 1440px) {
+  .mobile_header {
+    display: none;
+  }
+}
+
+@media (min-width: 1024px) {
+  .mobile_navbar svg {
+    display: none;
+  }
+}
+
+@media (max-width: 1024px) {
+  .headerlist,
+  .banner {
+    /* gap: 20px;
+    font-size: 14px; */
+    display: none;
+  }
+  .mobile_navbar svg {
+    display: block;
+    width: 24px;
+    height: 24px;
+  }
+  .mobile_header {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    margin-left: 121px;
+  }
+  /*.member {
+    padding-right: 9rem;
+  }*/
+  h1 {
+    color: #4e4e4e;
+    padding-left: 161px;
+    font-size: 42px;
+    font-weight: 100;
+    line-height: 50px;
+    /* padding-bottom: 120px; */
+    margin: 0px;
+    padding-left: 59px;
+  }
+}
+
+@media (max-width: 991px) {
+  .headerlist {
+    gap: 18px;
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headerlist {
+    gap: 14px;
+    font-size: 14px;
+  }
+  li img {
+    width: 18px;
+    height: 18px;
+  }
+  .content_section {
+    flex-direction: row;
+  }
+  .mobile_header {
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    /* margin-left: 121px; */
+    margin: 0px;
+  }
+  h1 {
+    padding-top: 15px;
+    color: #4e4e4e;
+    /* padding-left: 161px; */
+    font-size: 36px;
+    font-weight: 100;
+    line-height: 36px;
+    padding-bottom: 120px;
+    margin: 0px;
+    padding-left: 59px;
+  }
+}
+
+@media (max-width: 640px) {
+}
+
+@media (max-width: 480px) {
+  .mobile_header {
+    display: flex;
+    justify-content: flex-start;
+    gap: 5rem;
+    margin-left: 2rem;
+  }
+  .logo {
+    width: 180px;
+  }
+  .mobile_navbar {
+    padding-left: 0;
+  }
+  .content_section {
+    flex-direction: column;
+    width: 100%;
+  }
+  .image_content,
+  .image-wrapper {
+    width: 100%;
+  }
+  .image_content h1 {
+    padding: 40px;
+  }
+  .image_content h1 {
+    padding: 40px 74px;
+    font-size: 38px;
+    text-align: center;
+  }
+  .image_content h1 br {
+    display: none;
+  }
+  .member {
+    font-size: 12px;
+  }
+}
+
+@media (max-width: 425px) {
+}
+
+@media (max-width: 375px) {
+}
+
+@media (max-width: 320px) {
+}
